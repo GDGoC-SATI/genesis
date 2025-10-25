@@ -199,11 +199,15 @@ header::before {
             color: var(--gdg-blue);
         }
 
-        .menu-toggle {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-        }
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;  /* Add this - matches your header padding */
+    top: 50%;   /* Add this - vertically centers it */
+    transform: translateY(-50%);  /* Add this - perfect vertical centering */
+}
         
         .menu-toggle .bar {
             width: 25px;
@@ -350,6 +354,7 @@ header::before {
         .about-container li:nth-child(2)::before { color: var(--gdg-red); }
         .about-container li:nth-child(3)::before { color: var(--gdg-yellow); }
         .about-container li:nth-child(4)::before { color: var(--gdg-green); }
+        .about-container li:nth-child(5)::before { color: var(--gdg-blue); }
 
         .about-links {
             margin-top: 2rem;
@@ -387,6 +392,11 @@ header::before {
             background-color: var(--text-light-gray);
             color: white;
             cursor: not-allowed;
+        }
+
+        .btn-kickoff {
+            background-color: var(--gdg-red);
+            color: white;
         }
 
         /* --- 6. Timeline Section --- */
@@ -447,6 +457,7 @@ header::before {
         .timeline-item:nth-child(2)::before { border-color: var(--gdg-red); }
         .timeline-item:nth-child(3)::before { border-color: var(--gdg-yellow); }
         .timeline-item:nth-child(4)::before { border-color: var(--gdg-green); }
+        .timeline-item:nth-child(5)::before { border-color: var(--gdg-blue); }
         
         .timeline-content {
             background-color: var(--bg-off-white);
