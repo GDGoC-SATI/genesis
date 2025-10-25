@@ -325,6 +325,10 @@ header::before {
             text-align: left;
         }
         
+        .about-container .big {
+            font-size: 1.2rem;
+        }
+        
         .about-container strong {
             color: var(--text-dark);
         }
@@ -389,9 +393,8 @@ header::before {
         }
         
         .btn-ppt {
-            background-color: var(--text-light-gray);
+            background-color: var(--gdg-yellow);
             color: white;
-            cursor: not-allowed;
         }
 
         .btn-kickoff {

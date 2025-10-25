@@ -41,6 +41,7 @@
                 '🔧 Break problems, build solutions.',
                 '💪 Your team. Your vision. Your victory.'
             ];
+            console.log("idk");
 
             let currentTextIndex = 0;
             let currentCharIndex = 0;
@@ -87,6 +88,7 @@
 
         // Initialize mission animation when DOM is loaded
         if (document.readyState === 'loading') {
+            console.log('dom');
             document.addEventListener('DOMContentLoaded', initMissionAnimation);
         } else {
             initMissionAnimation();
