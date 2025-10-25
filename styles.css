@@ -265,7 +265,7 @@ header::before {
         
         #hero p {
             font-size: 1.5rem;
-            color: var(--gdg-half-blue);
+            color: var(--gdg-yellow);
             font-weight: 500;
             margin-top: 1rem;
             /* border: 2px solid var(--gdg-half-blue); */
@@ -649,9 +649,9 @@ header::before {
         
         footer {
             text-align: center;
-            padding: 2rem 5%;
+            padding: 1rem 5%;
             background-color: transparent;
-            border-top: 1px solid #eee;
+            /* border-top: 1px solid #eee; */
             color: var(--text-light-gray);
             font-size: 0.9rem;
         }
